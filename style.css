@@ -1,0 +1,485 @@
+body{
+box-sizing: border-box;
+font-family: sans-serif ;
+
+}
+
+.dropdown-menu{
+  position: relative;
+  left:9500px;
+}
+
+.black{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  font-size: 17px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  color: aliceblue;
+  padding: 15px 70px;
+  justify-content: end;
+}
+
+.black span{
+  position: absolute;
+  color: black;
+  left: 20px;
+  top: 30px;
+
+}
+.first-1{
+  color: white;
+  position: relative;
+  margin-right: 15px ;
+ }
+
+  .saconed-2{
+    font-size: 14px;
+  }
+ 
+ .saconed{
+  color: darkgrey;
+  width: 0px;
+  margin-right: 17px;
+ }
+
+ nav img {
+  position: relative;
+  top: 10px;
+  left: 65px;
+  margin-left: 0;
+  width: 250px;
+}
+
+
+.nav-link { 
+  color: black;
+  position: relative ;
+  left: 430px;
+  font-family: var(--nav-family);
+  font-size: 19px;
+  font-weight: lighter;
+  justify-content: space-around;
+}
+
+.nav-link:hover{
+  background-color: palevioletred;
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+  .figure {
+    position: relative;
+    width: 380px; 
+    max-width: 100%;
+  }
+  .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
+
+   .prodect{
+     padding-left: 200px;  
+  }
+
+div.collection-1{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  width: 230px;
+  height: 290px;
+  position: absolute;
+  right: 150px;
+  top: 250px;
+  background-color:   rgba(255, 255, 255, 0.4)  ;
+}
+
+div.collection-1 h4{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  position: relative;
+  left: 27px;
+  top: 20px;
+
+}
+
+
+div.collection-1 h4.mesa{
+  position: absolute;
+  top: 45px ;
+  left: 70px;
+}
+
+
+div.collection-1 p{
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  position: relative;
+  top: 45px;
+  left: 30px;
+}
+
+div.collection-1 p span{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  position: relative;
+  left: 58px;
+}
+
+div.collection-1 h6{
+  position: relative;
+  top: 25px;
+  left: 40px;
+  font-family: sans-serif;  
+  color: rgb(228, 227, 227);
+  background-color: black;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  padding-left: 40px ;
+  padding-top: 12px;
+  width: 160px; 
+  height: 70px;
+  border-radius: 3px;
+}
+
+
+
+
+/* end of collection-1 */
+div.collection-2{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif; 
+  width: 310px;
+  height: 220px;
+  position: absolute;
+  left: 10px;
+  top: 300px;
+  background-color:   rgba(255, 255, 255, 0.4)  ;
+}
+
+
+div.collection-2 h4{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  font-size: 24px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+div.collection-2 p{
+  position: relative;
+  font-size: 16px;
+  top: 30px;
+  left: 25px;
+  right: 20px;
+
+}
+
+div.collection-2 p span{
+  position: relative;
+  top: 7px;
+
+}
+
+div.collection-2 h6{
+  position: relative;
+  top: 40px;
+  left: 50px;
+  font-family: sans-serif;  
+  color: rgb(228, 227, 227);
+  background-color: black;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  padding-left: 20px ;
+  padding-top: 15px;
+  width: 200px; 
+  height: 50px;
+  border-radius: 3px;
+}
+
+
+/* end of collection-2 */
+div.collection-3{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif; 
+  font-size: 15px;
+  width: 550px;
+  height: 180px;
+  position:relative;
+  left: 680px;
+  top: 1150px;
+  background-color:   rgba(255, 255, 255, 0.4)  ;
+}
+
+
+
+div.collection-3 h3{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  font-size: 22px;
+  position: relative;
+  left: 170px;
+  top: 20px;
+}
+
+div.collection-3 p{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  font-size: 12px;
+  top: 30px;
+  left: 25px;
+  right: 20px;
+
+}
+
+div.collection-3 h6{
+  position: relative;
+  top: 40px;
+  left: 170px;
+  font-family: sans-serif;  
+  color: rgb(228, 227, 227);
+  background-color: black;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  padding: 30px ;
+  padding-top: 15px;
+  width: 200px; 
+  height: 50px;
+  border-radius: 3px;
+}
+
+button .next{
+  display: none;
+}
+
+
+
+.shop{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  justify-content: center;
+  width: 900px;
+  padding: 60px;
+
+}
+
+.shop h1{
+  position: relative;
+  left: 800px;
+
+}
+
+.shop p{
+  position: relative;
+  left: 700px;
+  margin-top: 30px;
+}
+
+
+section .stand-1{
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+
+}
+
+
+
+section .stand-1 p{
+  margin-top: 10px;
+}
+
+
+section .stand-1 span{
+  margin-left: 120px;
+}
+
+
+section .stand-1 .sief{
+  margin-right: 180px;
+ 
+}
+
+section .stand-2{
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+
+}
+
+
+section .stand-2 p{
+  margin-top: 10px;
+}
+
+
+
+section .stand-2 span{
+  margin-left: 120px;
+}
+
+
+section .stand-2 .sief{
+  margin-right: 180px;
+ 
+}
+
+
+.saad {
+    position: relative;
+    left: 250px;
+    bottom: 250px;
+    width: 700px;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.last h1{
+  position: absolute;
+  left: 850px;
+  margin-top: 60px; 
+  margin-bottom: 30px;
+}
+
+ .tiitle{
+  margin-left: 850px;
+ }
+
+
+.last div{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+  font-weight: 590;
+  position: relative;
+  left: 980px;
+  top: 200px;
+  width: 730px;
+  height: 300px;
+}
+
+
+.color span.sasa{
+  color: #999999e1;
+  position: relative;
+  left: 30px;
+  bottom: 24px;
+}
+
+
+.color span.part-one{
+  position: relative;
+  bottom: 15px;
+  font-weight: lighter;
+}
+
+.color span.part-tow{
+  position: relative;
+  bottom: 27px;
+}
+
+footer{
+  width: 100%;
+  height: 490px;
+  background-color: black;
+  position: relative;
+  margin-top: 350px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+}
+
+
+footer ul{
+  margin-left: 850px;
+  position: relative;
+  top: 70px;
+  list-style: none;
+  color: white;
+  
+}
+
+
+footer ul span{
+  color:  #ffdfbf;
+}
+
+
+h6{
+  color:  #ffdfbf;
+  position:absolute  ; 
+  right: 605px;
+  bottom: 390px;
+  
+}
+
+footer p{
+    color: white;
+    position:absolute  ; 
+    right: 160px;
+    bottom: 330px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+footer input{
+  outline: none;
+  width: 480px ;
+  height: 80px;
+  padding: 30px;
+  padding-top: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white ;
+  position: absolute;
+  right: 250px;
+  bottom: 250px;
+}
+
+
+.fol{
+  color: white;
+  margin-left: 220px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'REM', sans-serif;
+} 
+
+ .icone .icon-1{
+    color: white;
+    margin-top: 190px;
+    margin-left: 220px;
+  }
+
+  .icone .icon-2{
+  
+    margin-left: 1600px;
+    color: white;
+  } 
+
+  .icone .icon-3{
+    position: absolute;
+    right: 690px;
+    bottom: 210px;
+    color:  #ffdfbf;
+  }
